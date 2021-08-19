@@ -92,3 +92,4 @@ fi
 		$SUDO docker exec --interactive $DOCKER_TTY "$CONTAINER_NAME" bash
 	fi
 ) 3< "$LOCK_FILE"
+
