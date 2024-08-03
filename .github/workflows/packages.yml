@@ -3,12 +3,12 @@ name: Packages
 on:
   workflow_dispatch:
     paths:
-    - 'packages/**'
+    - 'packages/gl4es'
   push:
     branches:
     - master
     paths:
-    - 'packages/**'
+    - 'packages/gl4es'
 
 jobs:
   build:
